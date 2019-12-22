@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnjsonDers"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="Listeyi Göster" />
+
+    <Button
+        android:id="@+id/btnDersListesi"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:text="Ders listesi array olarak Göster" />
+
+    <Button
+        android:id="@+id/btnResim"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:text="Resimleri Göster" />
+
+</RelativeLayout>
